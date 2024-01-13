@@ -382,6 +382,9 @@ body {
   text-transform: none;
   max-width: 264px;
 }
+.fsocialdiv {
+  margin-right: 80px;
+}
 .fsmpar {
   font-weight: 500;
   margin-bottom: 16px;
