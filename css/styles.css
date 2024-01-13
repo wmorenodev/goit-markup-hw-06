@@ -414,6 +414,59 @@ body {
 .fsmlistsvg {
   fill: var(--lightcloud-color);
 }
+
+.fsubsdiv {
+}
+.fsubp {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--whitewhite-color);
+}
+.fsubform {
+  display: flex;
+}
+.fsubformlab {
+  gap: 24px;
+}
+.fsubformlinpt {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--whitewhite-color);
+  background-color: var(--transparent-color);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--whitewhite-color);
+}
+.fsubformlinpt::placeholder {
+  color: var(--whitewhite-color);
+}
+.fsubflbutton {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--whitewhite-color);
+  cursor: pointer;
+  background-color: var(--primaryiris-color);
+  border: none;
+  border-radius: 4px;
+}
+.fsubflbsvg {
+  margin-left: 16px;
+}
 .filterbutton {
   color: var(--primaryiris-color);
   background-color: var(--lightcloud-color);
