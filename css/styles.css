@@ -427,9 +427,9 @@ body {
 }
 .fsubform {
   display: flex;
+  gap: 24px;
 }
 .fsubformlab {
-  gap: 24px;
 }
 .fsubformlinpt {
   width: 264px;
