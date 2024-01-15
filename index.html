@@ -490,12 +490,28 @@
             <label class="modforml" for="user-comment">Comment</label>
             <textarea
               id="user-comment"
-              name="ucer-comment"
+              name="user-comment"
               placeholder="Text input"
               class="modformldivtxt"
             ></textarea>
           </div>
-          <div class="modformdivfive"></div>
+          <div class="modformdivfive">
+            <input
+              class="modformdivfivein visually-hidden"
+              id="user-privacy"
+              name="user-privacy"
+              type="checkbox"
+              value="true"
+            /><label class="modformdivfivelab"
+              ><span class="modformdivfivelabspan"
+                ><svg width="10" height="8" class="modformdivfivelabspansvg">
+                  <use href="./images/icons.svg#icon-tick"></use></svg></span
+              >I accept the terms and conditions of the<a
+                class="link ppolicylink"
+              ></a
+            ></label>
+          </div>
+          <button class="formsendbutton"></button>
         </form>
       </div>
     </div>
