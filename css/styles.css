@@ -622,6 +622,9 @@ body {
 .modformdiv {
   margin-bottom: 8px;
 }
+.modformdivt {
+  margin-bottom: 16px;
+}
 .modforml {
   font-size: 12px;
   line-height: 1.17;
@@ -660,6 +663,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: var(--transparent-color);
   padding: 8px 16px;
@@ -669,6 +673,8 @@ body {
 }
 .modformldivtxt:focus {
   border-color: var(--primaryiris-color);
+}
+.modformdivfive {
 }
 .close-btn {
   position: absolute;
