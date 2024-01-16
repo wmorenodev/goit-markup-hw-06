@@ -619,6 +619,8 @@ body {
   color: var(--darknavy-color);
   margin-bottom: 16px;
 }
+.modalform {
+}
 .modformdiv {
   margin-bottom: 8px;
 }
@@ -681,7 +683,10 @@ body {
 .modformdivfive {
   margin-bottom: 24px;
 }
-.modformdivfivein {
+.modformdivfivein:checked + .modformdivfivelab .modformdivfivelabspan {
+  background-color: var(--pressedocean-color);
+  border: none;
+  fill: var(--lightcloud-color);
 }
 .modformdivfivelab {
   font-size: 12px;
