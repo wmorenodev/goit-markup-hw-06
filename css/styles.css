@@ -381,6 +381,7 @@ body {
   font-size: 16px;
   text-transform: none;
   max-width: 264px;
+  margin-right: 0;
 }
 .fsocialdiv {
   margin-right: 80px;
@@ -729,6 +730,7 @@ body {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
 .close-btn {
   position: absolute;
